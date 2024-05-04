@@ -1,3 +1,5 @@
+# Myntra Clone - Using ReactJs , Redux , React Router , JS , Bootstrap , CSS ,html , accessing data from server . 
+
 <h1> Home Page </h1>
 
 <img width="1280" alt="Screenshot 2024-03-03 at 1 14 53 PM" src="https://github.com/amitkr-15/Myntra-UI-Project/assets/113462014/c2c98dec-8858-4608-aa72-901ff04147cc">
@@ -10,13 +12,14 @@
 
 <img width="1280" alt="Screenshot 2024-03-03 at 1 15 15 PM" src="https://github.com/amitkr-15/Myntra-UI-Project/assets/113462014/424d9bd3-904b-4869-aaa8-553654372c2c">
 
-# Myntra Clone - Using ReactJs , Redux , React Router , JS , Bootstrap . CSS ,html , accessing data from server. 
 
-Instructions 
 
- git clone git@github.com:amitkr-15/Myntra-UI-Project.git
+<h4>Instructions</h4> 
+
+git clone git@github.com:amitkr-15/Myntra-UI-Project.git
 
 FOR SERVER 
+
 1. cd server
 2. Install node dependencies 
    <p> npm install </p>
