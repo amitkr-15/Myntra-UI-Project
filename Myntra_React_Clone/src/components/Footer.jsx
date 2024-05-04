@@ -41,7 +41,7 @@ const Footer = () => {
             </a>
             GET IT ON <br />
             Google Play <br />
-            <a href="https://apps.apple.com/in/app/myntra-fashion-shopping-app/id907394059">
+            <a className="ml-2" href="https://apps.apple.com/in/app/myntra-fashion-shopping-app/id907394059">
               <AiOutlineApple size={50} />
             </a>
             Download On The <br />
@@ -49,10 +49,10 @@ const Footer = () => {
           </div>
 
           <h3>KEEP IN TOUCH</h3>
-          <div className="social_link">
-            <FaFacebook size={30} />
-            <FaYoutube size={30} />
-            <FaInstagram size={30} />
+          <div className="social_link  text-2xl flex ">
+            <FaFacebook className="mt-0"  />
+            <FaYoutube  className="ml-4" />
+            <FaInstagram className="ml-4"  />
           </div>
         </div>
       </div>
@@ -88,6 +88,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-

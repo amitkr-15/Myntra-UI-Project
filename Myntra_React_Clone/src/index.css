@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 * {
   margin: 0;
   padding: 0;
@@ -34,11 +36,11 @@ header {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 28px 0;
+  padding: 32px 0;
   border-bottom: 5px solid #ffffff;
 }
 .nav_bar a:hover {
-  border-bottom: 4px solid #f54e77;
+  border-bottom: 3px solid #f54e77;
 }
 
 .nav_bar a sup {
@@ -55,21 +57,24 @@ header {
 }
 .search_icon {
   box-sizing: content-box;
-  height: 20px;
-  padding: 10px;
-
+  
+  height: 30px;
+  padding: 5px;
   background-color: #f5f5f6;
   color: #282c3f;
   font-weight: 300;
   border-radius: 4px 0 0 4px;
+  
 }
 .search_input {
   color: #696e79;
   background-color: #f5f5f6;
   flex-grow: 1;
   height: 40px;
-  border: 0;
+  border: 0px;
   border-radius: 0 4px 4px 0;
+  padding-left: 5px;
+  
 }
 
 .action_bar {
@@ -128,8 +133,10 @@ header {
 
 .footer_column h3 {
   color: #282c3f;
-  font-size: 14px;
-  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 15px;
 }
 
 .footer_column a {
@@ -137,6 +144,27 @@ header {
   font-size: 15px;
   text-decoration: none;
   padding-bottom: 5px;
+}
+
+.footer_column address{
+  color: #94969f;
+  font-weight: 200;
+  margin-left:2rem;
+}
+.download_link{
+  display: flex;
+ font-size: 15px;
+ padding: 0 25px 25px 0;
+  
+  }
+
+.rg{
+  margin-left: 2rem;
+}
+.gst_nO{
+  color: #94969f;
+  text-align: end;
+  padding: 15px;
 }
 
 .copyright {
@@ -208,9 +236,11 @@ header {
   font-size: 12px;
   margin-left: 5px;
 }
+
 .btn-add-bag {
   margin-top: 8px;
   font-size: 18px;
+  
   width: 100%;
   background-color: lightgreen;
   border: none;
@@ -240,7 +270,6 @@ header {
 a.action_container:link {
   color:black;
 }
-
 .bag-items-container {
   display: inline-block;
   width: 64%;
@@ -377,6 +406,7 @@ a.action_container:link {
   height: 14px;
   cursor: pointer;
 }
-.spinner{
-  margin: 100px 0px ;
+
+.spinner {
+  margin: 100px 0px;
 }

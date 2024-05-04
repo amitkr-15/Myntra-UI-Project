@@ -1,4 +1,4 @@
-const LoadingSpinners = () => {
+const LoadingSpinner = () => {
   return (
     <div className="d-flex justify-content-center spinner">
       <div
@@ -12,4 +12,4 @@ const LoadingSpinners = () => {
   );
 };
 
-export default LoadingSpinners;
+export default LoadingSpinner;

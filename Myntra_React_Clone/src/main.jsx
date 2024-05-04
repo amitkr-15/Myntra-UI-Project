@@ -6,8 +6,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Bag from "./routes/Bag.jsx";
 import Home from "./routes/Home.jsx";
-import myntraStore from "./store/index.js";
 import { Provider } from "react-redux";
+import myntraStore from "./store/index.js";
+import WishList from "./routes/WishList.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -19,10 +21,13 @@ const router = createBrowserRouter([
         path: "/bag",
         element: <Bag />,
       },
-    ],
+      {
+        path: "/wishlist",
+        element: <WishList />,
+      },
+     ],
   },
 ]);
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Provider store={myntraStore}>
