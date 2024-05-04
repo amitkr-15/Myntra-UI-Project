@@ -20,7 +20,7 @@ FOR SERVER
 1. cd server
 2. Install node dependencies 
    <p> npm install </p>
-   <p> nm audit fix</p>
+   <p> npm audit fix</p>
 3. server run - node app.js
 4. The app is now running at http://localhost:8080
 
@@ -29,6 +29,6 @@ FOR CLIENT
 1. cd Myntra_React_Clone
 2. Install node dependencies 
    <p> npm install </p>
-   <p> nm audit fix</p>
+   <p> npm audit fix</p>
 3. server run - npm run dev
 
